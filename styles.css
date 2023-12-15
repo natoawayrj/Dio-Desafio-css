@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.9) ,#072735 , rgba(0,0,0,0.9) ), url(./assets/images/banner.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 605px;
+    border-bottom: 2px solid #33a8db;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content img{
+    background-color: rgba(0,0,0,0.3);
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+.banner-content h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+.banner-content p{
+    width: 510px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.banner-content button{
+     color: #33a8db;
+     width: 326px;
+     height: 57px;
+     margin-top: 1.5rem;
+     margin-bottom: 1rem;
+     font-size: 16px;
+     text-transform: uppercase;
+     border: 2px solid #33a8db;
+     background-color: transparent;
+     cursor: pointer;
+     padding: 16px 32px;
+}
+/* Main */
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 605px;
+    background-color: black;
+    border-bottom: 2px solid #33a8db;
+}
+
+#course-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #33a8db;
+    text-transform: uppercase;
+    width: 477px;
+    height: 38px;
+    text-align: center;
+    margin-top: -5rem;
+}
+
+#course-content p{
+    color: #fff;
+    width: 792px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.modules-list{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.module{
+    width: 535px;
+    height: 25;
+    border-radius: 25px;
+    border: 1px solid #33a8db;
+    padding: 16px 12px;
+    background-color: rgba(37, 37, 37, 1);
+    gap: 10px;
+    margin-top: 25px;
+    
+}
+.module span{
+    color: rgba(51, 168, 219, 1);
+}
+/* section transform-word */
+#transform-world{
+    background-image: url(./assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+    height: 560px;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+    color: #fff;
+  }
+
+  /* section professional-challenges */
+
+  #professional-challenges{
+    background-color: black;
+    border-bottom: 2px solid #33A8DB;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #professional-challenges h2{
+    color: #33A8DB;
+    width: 746px;
+    height: 76px;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  #professional-challenges img {
+    margin: 32px 0;
+  }
+
+  #professional-challenges p{
+    color: #fff;
+    text-align: center;
+    max-width: 796px;
+    height: 76px;
+    left: 324px;
+    margin-bottom: 4rem;
+  }
+
+  /* Footer */
+
+  footer {
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    background-color: black;
+    color: #fff;
+  }
+  
+  footer .dio-logo {
+    width: 300px;
+    margin-top: 59px;
+  }
+  
+  footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+  }
+
+  footer p{
+    padding: 11px 10px 3rem;
+  }
